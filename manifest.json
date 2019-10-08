@@ -1,0 +1,17 @@
+{
+  "name": "WileyMINUS",
+  "description": "WileyMINUS",
+  "version": "1.0",
+  "manifest_version": 2,
+  
+  "background": {"scripts":["background.js"]},
+  "permissions": [
+    "webRequest",
+    "<all_urls>",
+    "webRequestBlocking"
+  ],
+  "web_accessible_resources": [
+    "wileyminus.gif"
+  ]
+  
+}
